@@ -1,4 +1,4 @@
-# TestAutomationPipeLine
+# AITestAutomation With Claude Code
 잡 코리아의 AI Challenge QA 공모전용 프로젝트입니다.
 <br />
 AI를 활용하여 알바몬 모바일 웹 페이지의 로그인 기능 요소들을 분석,
