@@ -19,6 +19,26 @@ Claude Commands와 Playwright MCP를 사용한다면 개발 및 환경구축 시
 이는 서브 에이전트.md 파일에 문서 작성 규칙을 추가하여 문제를 해결할 수 있었습니다.<br />
 
 <br /><br /><br />
+
+## 디렉토리 구성
+```bash
+├── .claude 
+│   ├── agents               //playwright-test-automator.md TC기반 자동화 스크립트 작성 에이전트
+│   ├── commands             //generate-test-cases.md 테스트 케이스 생성 커맨드
+│   └── settings.local.json  //프로젝트 환경 설정
+├── Docs
+│   ├── Report               //테스트_실행_결과_보고서.md
+│   ├── analysis             //website-analyzed.md
+│   └── test-cases
+├── TestScript
+│   ├── abnormal-scenarios   //비정상 시나리오 스크립트
+│   ├── exception-scenarios  //예외처리 시나리오 스크립트
+│   ├── normal-scenarios     //정상 시나리오 스크립트
+│   └── sns-scenarios        //SNS 로그인 시나리오 스크립트
+└── 
+``` 
+
+
 ## 📚Stack
 
 ### AI
@@ -32,6 +52,7 @@ Claude Commands와 Playwright MCP를 사용한다면 개발 및 환경구축 시
 ## 실행 가이드
 해당 프로젝트를 실행하기 위해선 playwright를 실행할 수 있는 환경이 갖추어져야 합니다.<br />
 개인적으로 cluade code를 사용하길 권장합니다.<br />
+환경구성은 /.claude/settings.local.json 을 참고해주시기 바라며 Playwright,Context7 MCP를 사용하였습니다.<br />
 문서내 작성된 테스트 계정 정보는 임의로 삭제되었습니다.(로그인 정상 케이스와 같은 스크립트에 테스트 계정을 넣어야 실행이 가능합니다.)<br />
 
 <br /><br /><br />
